@@ -1,0 +1,208 @@
+Avec violationOpt, triVariable et AC3
+
+
+durete10_reseau1.txt          sol: true                     real: 2,737ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete10_reseau2.txt          sol: true                     real: 0,369ms       system: 0,000ms       cpu: 15,625ms      user: 15,625ms      
+durete10_reseau3.txt          sol: true                     real: 1,013ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete10_reseau4.txt          sol: true                     real: 0,457ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete10_reseau5.txt          sol: true                     real: 0,270ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete10_reseau6.txt          sol: true                     real: 0,234ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete10_reseau7.txt          sol: true                     real: 0,329ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete10_reseau8.txt          sol: true                     real: 0,254ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete10_reseau9.txt          sol: true                     real: 0,225ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete10_reseau10.txt         sol: true                     real: 0,195ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 10%       sol: 10/10 | TO: 0/10         real: 0,608ms       system: 0,000ms       cpu: 1,562ms       user: 1,562ms       
+---------------------------------------------------------------------------------------------------------------------------------------------
+durete15_reseau1.txt          sol: true                     real: 33,953ms      system: 0,000ms       cpu: 15,625ms      user: 15,625ms      
+durete15_reseau2.txt          sol: true                     real: 0,229ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete15_reseau3.txt          sol: true                     real: 0,392ms       system: 0,000ms       cpu: 15,625ms      user: 15,625ms      
+durete15_reseau4.txt          sol: true                     real: 0,286ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete15_reseau5.txt          sol: true                     real: 1,171ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete15_reseau6.txt          sol: true                     real: 0,223ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete15_reseau7.txt          sol: true                     real: 0,198ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete15_reseau8.txt          sol: true                     real: 0,197ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete15_reseau9.txt          sol: true                     real: 0,191ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete15_reseau10.txt         sol: true                     real: 0,174ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 15%       sol: 10/10 | TO: 0/10         real: 3,701ms       system: 0,000ms       cpu: 3,125ms       user: 3,125ms       
+---------------------------------------------------------------------------------------------------------------------------------------------
+durete20_reseau1.txt          sol: true                     real: 0,230ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete20_reseau2.txt          sol: true                     real: 0,162ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete20_reseau3.txt          sol: true                     real: 0,183ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete20_reseau4.txt          sol: true                     real: 0,189ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete20_reseau5.txt          sol: true                     real: 0,143ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete20_reseau6.txt          sol: true                     real: 0,216ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete20_reseau7.txt          sol: true                     real: 0,209ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete20_reseau8.txt          sol: true                     real: 0,204ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete20_reseau9.txt          sol: true                     real: 0,213ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete20_reseau10.txt         sol: true                     real: 0,180ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 20%       sol: 10/10 | TO: 0/10         real: 0,193ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+---------------------------------------------------------------------------------------------------------------------------------------------
+durete25_reseau1.txt          sol: true                     real: 0,221ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete25_reseau2.txt          sol: true                     real: 0,155ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete25_reseau3.txt          sol: true                     real: 0,270ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete25_reseau4.txt          sol: true                     real: 0,221ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete25_reseau5.txt          sol: true                     real: 0,241ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete25_reseau6.txt          sol: true                     real: 0,218ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete25_reseau7.txt          sol: true                     real: 0,221ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete25_reseau8.txt          sol: true                     real: 0,218ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete25_reseau9.txt          sol: true                     real: 0,156ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete25_reseau10.txt         sol: true                     real: 0,209ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 25%       sol: 10/10 | TO: 0/10         real: 0,213ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+---------------------------------------------------------------------------------------------------------------------------------------------
+durete30_reseau1.txt          sol: true                     real: 0,567ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete30_reseau2.txt          sol: true                     real: 0,381ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete30_reseau3.txt          sol: true                     real: 0,295ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete30_reseau4.txt          sol: true                     real: 0,218ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete30_reseau5.txt          sol: true                     real: 0,239ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete30_reseau6.txt          sol: true                     real: 0,823ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete30_reseau7.txt          sol: true                     real: 0,223ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete30_reseau8.txt          sol: true                     real: 0,184ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete30_reseau9.txt          sol: true                     real: 0,182ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete30_reseau10.txt         sol: true                     real: 0,200ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 30%       sol: 10/10 | TO: 0/10         real: 0,331ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+---------------------------------------------------------------------------------------------------------------------------------------------
+durete35_reseau1.txt          sol: true                     real: 0,222ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete35_reseau2.txt          sol: true                     real: 3,478ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete35_reseau3.txt          sol: true                     real: 14,289ms      system: 0,000ms       cpu: 15,625ms      user: 15,625ms      
+durete35_reseau4.txt          sol: true                     real: 0,249ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete35_reseau5.txt          sol: true                     real: 1,087ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete35_reseau6.txt          sol: true                     real: 0,223ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete35_reseau7.txt          sol: true                     real: 0,229ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete35_reseau8.txt          sol: true                     real: 0,616ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete35_reseau9.txt          sol: true                     real: 0,212ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete35_reseau10.txt         sol: true                     real: 0,378ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 35%       sol: 10/10 | TO: 0/10         real: 2,098ms       system: 0,000ms       cpu: 1,562ms       user: 1,562ms       
+---------------------------------------------------------------------------------------------------------------------------------------------
+durete40_reseau1.txt          sol: true                     real: 0,181ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete40_reseau2.txt          sol: true                     real: 0,214ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete40_reseau3.txt          sol: true                     real: 0,435ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete40_reseau4.txt          sol: true                     real: 0,238ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete40_reseau5.txt          sol: true                     real: 0,271ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete40_reseau6.txt          sol: true                     real: 0,220ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete40_reseau7.txt          sol: true                     real: 356,196ms     system: 0,000ms       cpu: 296,875ms     user: 296,875ms     
+durete40_reseau8.txt          sol: true                     real: 0,183ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete40_reseau9.txt          sol: true                     real: 0,203ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete40_reseau10.txt         sol: true                     real: 13,045ms      system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 40%       sol: 10/10 | TO: 0/10         real: 37,119ms      system: 0,000ms       cpu: 29,688ms      user: 29,688ms      
+---------------------------------------------------------------------------------------------------------------------------------------------
+durete45_reseau1.txt          sol: true                     real: 1,818ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete45_reseau2.txt          sol: true                     real: 0,460ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete45_reseau3.txt          sol: true                     real: 0,375ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete45_reseau4.txt          sol: true                     real: 91,299ms      system: 0,000ms       cpu: 93,750ms      user: 93,750ms      
+durete45_reseau5.txt          sol: true                     real: 8160,322ms    system: 0,000ms       cpu: 8015,625ms    user: 8015,625ms    
+durete45_reseau6.txt          sol: true                     real: 0,219ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete45_reseau7.txt          sol: true                     real: 0,188ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete45_reseau8.txt          sol: true                     real: 0,155ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete45_reseau9.txt          sol: true                     real: 1,657ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete45_reseau10.txt         sol: true                     real: 0,529ms       system: 0,000ms       cpu: 15,625ms      user: 15,625ms      
+Moyenne pour durete 45%       sol: 10/10 | TO: 0/10         real: 825,702ms     system: 0,000ms       cpu: 812,500ms     user: 812,500ms     
+---------------------------------------------------------------------------------------------------------------------------------------------
+durete50_reseau1.txt          sol: true                     real: 1,028ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete50_reseau2.txt          sol: true                     real: 2,638ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete50_reseau3.txt          sol: true                     real: 0,188ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete50_reseau4.txt          sol: true                     real: 0,262ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete50_reseau5.txt          sol: true                     real: 0,765ms       system: 0,000ms       cpu: 15,625ms      user: 15,625ms      
+durete50_reseau6.txt          sol: true                     real: 0,557ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete50_reseau7.txt          sol: true                     real: 0,211ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete50_reseau8.txt          sol: true                     real: 8,612ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete50_reseau9.txt          sol: true                     real: 32,282ms      system: 0,000ms       cpu: 46,875ms      user: 46,875ms      
+durete50_reseau10.txt         sol: true                     real: 11,948ms      system: 0,000ms       cpu: 15,625ms      user: 15,625ms      
+Moyenne pour durete 50%       sol: 10/10 | TO: 0/10         real: 5,849ms       system: 0,000ms       cpu: 7,812ms       user: 7,812ms       
+---------------------------------------------------------------------------------------------------------------------------------------------
+durete55_reseau1.txt          sol: true                     real: 106,432ms     system: 0,000ms       cpu: 109,375ms     user: 109,375ms     
+durete55_reseau2.txt          sol: true                     real: 94,965ms      system: 0,000ms       cpu: 93,750ms      user: 93,750ms      
+durete55_reseau3.txt          sol: true                     real: 9,418ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete55_reseau4.txt          sol: true                     real: 1,823ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete55_reseau5.txt          sol: true                     real: 15,390ms      system: 0,000ms       cpu: 15,625ms      user: 15,625ms      
+durete55_reseau6.txt          sol: true                     real: 21,401ms      system: 0,000ms       cpu: 31,250ms      user: 31,250ms      
+durete55_reseau7.txt          sol: true                     real: 330,678ms     system: 0,000ms       cpu: 296,875ms     user: 296,875ms     
+durete55_reseau8.txt          sol: true                     real: 1,170ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete55_reseau9.txt          sol: true                     real: 27,487ms      system: 0,000ms       cpu: 31,250ms      user: 31,250ms      
+durete55_reseau10.txt         sol: true                     real: 1,620ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 55%       sol: 10/10 | TO: 0/10         real: 61,039ms      system: 0,000ms       cpu: 57,812ms      user: 57,812ms      
+---------------------------------------------------------------------------------------------------------------------------------------------
+durete60_reseau1.txt          sol: true                     real: 1,326ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete60_reseau2.txt          sol: true                     real: 2,404ms       system: 0,000ms       cpu: 15,625ms      user: 15,625ms      
+durete60_reseau3.txt          sol: true                     real: 18,542ms      system: 0,000ms       cpu: 15,625ms      user: 15,625ms      
+durete60_reseau4.txt          sol: true                     real: 51,222ms      system: 0,000ms       cpu: 46,875ms      user: 46,875ms      
+durete60_reseau5.txt          sol: true                     real: 1,517ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete60_reseau6.txt          sol: true                     real: 4,088ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete60_reseau7.txt          sol: true                     real: 66,070ms      system: 0,000ms       cpu: 62,500ms      user: 62,500ms      
+durete60_reseau8.txt          sol: true                     real: 0,370ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete60_reseau9.txt          sol: true                     real: 165,009ms     system: 0,000ms       cpu: 171,875ms     user: 171,875ms     
+durete60_reseau10.txt         sol: true                     real: 394,558ms     system: 0,000ms       cpu: 375,000ms     user: 375,000ms     
+Moyenne pour durete 60%       sol: 10/10 | TO: 0/10         real: 70,511ms      system: 0,000ms       cpu: 68,750ms      user: 68,750ms      
+---------------------------------------------------------------------------------------------------------------------------------------------
+durete65_reseau1.txt          sol: true                     real: 31,834ms      system: 0,000ms       cpu: 31,250ms      user: 31,250ms      
+durete65_reseau2.txt          sol: true                     real: 97,342ms      system: 0,000ms       cpu: 93,750ms      user: 93,750ms      
+durete65_reseau3.txt          sol: true                     real: 43,984ms      system: 0,000ms       cpu: 46,875ms      user: 46,875ms      
+durete65_reseau4.txt          sol: true                     real: 10,503ms      system: 0,000ms       cpu: 15,625ms      user: 15,625ms      
+durete65_reseau5.txt          sol: true                     real: 229,172ms     system: 0,000ms       cpu: 234,375ms     user: 234,375ms     
+durete65_reseau6.txt          sol: false                    real: 116,633ms     system: 0,000ms       cpu: 109,375ms     user: 109,375ms     
+durete65_reseau7.txt          sol: true                     real: 48,962ms      system: 0,000ms       cpu: 46,875ms      user: 46,875ms      
+durete65_reseau8.txt          sol: true                     real: 2,575ms       system: 0,000ms       cpu: 15,625ms      user: 15,625ms      
+durete65_reseau9.txt          sol: true                     real: 16,626ms      system: 0,000ms       cpu: 15,625ms      user: 15,625ms      
+durete65_reseau10.txt         sol: true                     real: 654,697ms     system: 0,000ms       cpu: 656,250ms     user: 656,250ms     
+Moyenne pour durete 65%       sol: 9/10 | TO: 0/10          real: 125,233ms     system: 0,000ms       cpu: 126,562ms     user: 126,562ms     
+---------------------------------------------------------------------------------------------------------------------------------------------
+durete70_reseau1.txt          sol: false                    real: 31,747ms      system: 0,000ms       cpu: 31,250ms      user: 31,250ms      
+durete70_reseau2.txt          sol: false                    real: 25,944ms      system: 0,000ms       cpu: 31,250ms      user: 31,250ms      
+durete70_reseau3.txt          sol: false                    real: 5,468ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete70_reseau4.txt          sol: false                    real: 0,045ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete70_reseau5.txt          sol: false                    real: 13,771ms      system: 0,000ms       cpu: 15,625ms      user: 15,625ms      
+durete70_reseau6.txt          sol: false                    real: 4,772ms       system: 0,000ms       cpu: 15,625ms      user: 15,625ms      
+durete70_reseau7.txt          sol: false                    real: 0,043ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete70_reseau8.txt          sol: false                    real: 40,925ms      system: 31,250ms      cpu: 46,875ms      user: 15,625ms      
+durete70_reseau9.txt          sol: false                    real: 792,460ms     system: 0,000ms       cpu: 796,875ms     user: 796,875ms     
+durete70_reseau10.txt         sol: false                    real: 16,675ms      system: 0,000ms       cpu: 15,625ms      user: 15,625ms      
+Moyenne pour durete 70%       sol: 0/10 | TO: 0/10          real: 93,185ms      system: 3,125ms       cpu: 95,312ms      user: 92,188ms      
+---------------------------------------------------------------------------------------------------------------------------------------------
+durete75_reseau1.txt          sol: false                    real: 0,028ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete75_reseau2.txt          sol: false                    real: 0,074ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete75_reseau3.txt          sol: false                    real: 0,032ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete75_reseau4.txt          sol: false                    real: 0,044ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete75_reseau5.txt          sol: false                    real: 0,543ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete75_reseau6.txt          sol: false                    real: 0,025ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete75_reseau7.txt          sol: false                    real: 0,508ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete75_reseau8.txt          sol: false                    real: 0,036ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete75_reseau9.txt          sol: false                    real: 0,108ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete75_reseau10.txt         sol: false                    real: 0,031ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 75%       sol: 0/10 | TO: 0/10          real: 0,143ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+---------------------------------------------------------------------------------------------------------------------------------------------
+durete80_reseau1.txt          sol: false                    real: 0,015ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete80_reseau2.txt          sol: false                    real: 0,215ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete80_reseau3.txt          sol: false                    real: 1,356ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete80_reseau4.txt          sol: false                    real: 0,268ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete80_reseau5.txt          sol: false                    real: 0,023ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete80_reseau6.txt          sol: false                    real: 0,025ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete80_reseau7.txt          sol: false                    real: 5,932ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete80_reseau8.txt          sol: false                    real: 0,015ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete80_reseau9.txt          sol: false                    real: 0,018ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete80_reseau10.txt         sol: false                    real: 0,117ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 80%       sol: 0/10 | TO: 0/10          real: 0,799ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+---------------------------------------------------------------------------------------------------------------------------------------------
+durete85_reseau1.txt          sol: false                    real: 0,075ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete85_reseau2.txt          sol: false                    real: 0,023ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete85_reseau3.txt          sol: false                    real: 0,297ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete85_reseau4.txt          sol: false                    real: 0,057ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete85_reseau5.txt          sol: false                    real: 0,017ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete85_reseau6.txt          sol: false                    real: 0,034ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete85_reseau7.txt          sol: false                    real: 0,014ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete85_reseau8.txt          sol: false                    real: 0,027ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete85_reseau9.txt          sol: false                    real: 0,014ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete85_reseau10.txt         sol: false                    real: 0,040ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 85%       sol: 0/10 | TO: 0/10          real: 0,060ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+---------------------------------------------------------------------------------------------------------------------------------------------
+durete90_reseau1.txt          sol: false                    real: 0,014ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete90_reseau2.txt          sol: false                    real: 0,021ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete90_reseau3.txt          sol: false                    real: 0,014ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete90_reseau4.txt          sol: false                    real: 0,024ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete90_reseau5.txt          sol: false                    real: 0,016ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete90_reseau6.txt          sol: false                    real: 0,014ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete90_reseau7.txt          sol: false                    real: 0,020ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete90_reseau8.txt          sol: false                    real: 0,013ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete90_reseau9.txt          sol: false                    real: 0,014ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+durete90_reseau10.txt         sol: false                    real: 0,033ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 90%       sol: 0/10 | TO: 0/10          real: 0,018ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+---------------------------------------------------------------------------------------------------------------------------------------------
+Moyenne finale                sol: 119/170 | TO: 0/170      real: 72,165ms      system: 0,184ms       cpu: 70,864ms      user: 70,680ms      

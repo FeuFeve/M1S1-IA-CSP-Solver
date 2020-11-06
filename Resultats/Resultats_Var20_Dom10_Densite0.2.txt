@@ -1,0 +1,146 @@
+Variables : 20
+Taille des domaines : 10
+Densité : 20%
+Dureté : 10 à 90% avec pas de 5%
+
+Exemple de commande : urbcsp.exe 20 10 38 50 (donne un réseau de dureté 50% dans ce cas)
+
+
+10 Réseaux par niveau de dureté, 5 test par réseau
+
+Time-out : 10s
+
+
+
+##################################################
+
+
+Sans violationOpt, triVariable et AC3
+
+
+Moyenne pour durete 10%       sol: 10/10 | TO: 0/10         real: 6,094ms       system: 1,562ms       cpu: 4,688ms       user: 3,125ms       
+Moyenne pour durete 15%       sol: 9/10 | TO: 1/10          real: 0,771ms       system: 0,000ms       cpu: 1,736ms       user: 1,736ms       
+Moyenne pour durete 20%       sol: 10/10 | TO: 0/10         real: 0,741ms       system: 0,000ms       cpu: 3,125ms       user: 3,125ms       
+Moyenne pour durete 25%       sol: 10/10 | TO: 0/10         real: 0,970ms       system: 0,000ms       cpu: 1,562ms       user: 1,562ms       
+Moyenne pour durete 30%       sol: 10/10 | TO: 0/10         real: 32,982ms      system: 0,000ms       cpu: 34,375ms      user: 34,375ms      
+Moyenne pour durete 35%       sol: 7/10 | TO: 3/10          real: 952,045ms     system: 0,000ms       cpu: 941,964ms     user: 941,964ms     
+Moyenne pour durete 40%       sol: 7/10 | TO: 3/10          real: 1198,658ms    system: 0,000ms       cpu: 1178,571ms    user: 1178,571ms    
+Moyenne pour durete 45%       sol: 8/10 | TO: 2/10          real: 1845,370ms    system: 1,953ms       cpu: 1814,453ms    user: 1812,500ms    
+Moyenne pour durete 50%       sol: 7/10 | TO: 3/10          real: 214,806ms     system: 0,000ms       cpu: 209,821ms     user: 209,821ms     
+Moyenne pour durete 55%       sol: 0/10 | TO: 10/10         real: ---           system: ---           cpu: ---           user: ---           
+Moyenne pour durete 60%       sol: 2/10 | TO: 8/10          real: 118,357ms     system: 0,000ms       cpu: 117,188ms     user: 117,188ms     
+Moyenne pour durete 65%       sol: 1/10 | TO: 9/10          real: 5313,570ms    system: 0,000ms       cpu: 5234,375ms    user: 5234,375ms    
+Moyenne pour durete 70%       sol: 0/10 | TO: 9/10          real: 7886,435ms    system: 0,000ms       cpu: 7828,125ms    user: 7828,125ms    
+Moyenne pour durete 75%       sol: 0/10 | TO: 3/10          real: 4232,886ms    system: 2,232ms       cpu: 4198,661ms    user: 4196,429ms    
+Moyenne pour durete 80%       sol: 0/10 | TO: 2/10          real: 2359,484ms    system: 1,953ms       cpu: 2343,750ms    user: 2341,797ms    
+Moyenne pour durete 85%       sol: 0/10 | TO: 0/10          real: 102,894ms     system: 1,562ms       cpu: 98,438ms      user: 96,875ms      
+Moyenne pour durete 90%       sol: 0/10 | TO: 0/10          real: 10,371ms      system: 0,000ms       cpu: 9,375ms       user: 9,375ms       
+Moyenne finale                sol: 81/170 | TO: 53/170      real: 810,357ms     system: 0,668ms       cpu: 801,683ms     user: 801,015ms     
+
+
+
+##################################################
+
+
+Avec violationOpt, sans triVariable et AC3
+
+
+Moyenne pour durete 10%       sol: 10/10 | TO: 0/10         real: 0,852ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 15%       sol: 9/10 | TO: 1/10          real: 0,216ms       system: 0,000ms       cpu: 1,736ms       user: 1,736ms       
+Moyenne pour durete 20%       sol: 10/10 | TO: 0/10         real: 0,195ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 25%       sol: 10/10 | TO: 0/10         real: 0,209ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 30%       sol: 10/10 | TO: 0/10         real: 4,195ms       system: 0,000ms       cpu: 4,688ms       user: 4,688ms       
+Moyenne pour durete 35%       sol: 8/10 | TO: 2/10          real: 663,724ms     system: 0,000ms       cpu: 656,250ms     user: 656,250ms     
+Moyenne pour durete 40%       sol: 8/10 | TO: 2/10          real: 374,873ms     system: 0,000ms       cpu: 373,047ms     user: 373,047ms     
+Moyenne pour durete 45%       sol: 10/10 | TO: 0/10         real: 929,705ms     system: 1,562ms       cpu: 901,562ms     user: 900,000ms     
+Moyenne pour durete 50%       sol: 8/10 | TO: 2/10          real: 462,888ms     system: 0,000ms       cpu: 451,172ms     user: 451,172ms     
+Moyenne pour durete 55%       sol: 3/10 | TO: 7/10          real: 4451,525ms    system: 0,000ms       cpu: 4364,583ms    user: 4364,583ms    
+Moyenne pour durete 60%       sol: 6/10 | TO: 4/10          real: 3435,246ms    system: 2,604ms       cpu: 3385,417ms    user: 3382,812ms    
+Moyenne pour durete 65%       sol: 3/10 | TO: 7/10          real: 5329,687ms    system: 0,000ms       cpu: 5260,417ms    user: 5260,417ms    
+Moyenne pour durete 70%       sol: 0/10 | TO: 9/10          real: 2792,593ms    system: 15,625ms      cpu: 2750,000ms    user: 2734,375ms    
+Moyenne pour durete 75%       sol: 0/10 | TO: 3/10          real: 2998,467ms    system: 2,232ms       cpu: 2982,143ms    user: 2979,911ms    
+Moyenne pour durete 80%       sol: 0/10 | TO: 5/10          real: 1565,762ms    system: 6,250ms       cpu: 1559,375ms    user: 1553,125ms    
+Moyenne pour durete 85%       sol: 0/10 | TO: 0/10          real: 1379,424ms    system: 0,000ms       cpu: 1368,750ms    user: 1368,750ms    
+Moyenne pour durete 90%       sol: 0/10 | TO: 1/10          real: 1711,823ms    system: 0,000ms       cpu: 1701,389ms    user: 1701,389ms    
+Moyenne finale                sol: 95/170 | TO: 43/170      real: 1040,408ms    system: 0,738ms       cpu: 1027,805ms    user: 1027,067ms    
+
+
+
+##################################################
+
+
+Avec triVariable, sans violationOpt et AC3
+
+
+Moyenne pour durete 10%       sol: 10/10 | TO: 0/10         real: 2,924ms       system: 0,000ms       cpu: 3,125ms       user: 3,125ms       
+Moyenne pour durete 15%       sol: 10/10 | TO: 0/10         real: 5,062ms       system: 0,000ms       cpu: 3,125ms       user: 3,125ms       
+Moyenne pour durete 20%       sol: 10/10 | TO: 0/10         real: 1,045ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 25%       sol: 10/10 | TO: 0/10         real: 1,412ms       system: 0,000ms       cpu: 1,562ms       user: 1,562ms       
+Moyenne pour durete 30%       sol: 10/10 | TO: 0/10         real: 1,711ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 35%       sol: 10/10 | TO: 0/10         real: 20,863ms      system: 0,000ms       cpu: 7,812ms       user: 7,812ms       
+Moyenne pour durete 40%       sol: 10/10 | TO: 0/10         real: 214,981ms     system: 9,375ms       cpu: 173,438ms     user: 164,062ms     
+Moyenne pour durete 45%       sol: 9/10 | TO: 1/10          real: 56,529ms      system: 0,000ms       cpu: 55,556ms      user: 55,556ms      
+Moyenne pour durete 50%       sol: 10/10 | TO: 0/10         real: 44,917ms      system: 0,000ms       cpu: 31,250ms      user: 31,250ms      
+Moyenne pour durete 55%       sol: 10/10 | TO: 0/10         real: 316,048ms     system: 1,562ms       cpu: 307,812ms     user: 306,250ms     
+Moyenne pour durete 60%       sol: 10/10 | TO: 0/10         real: 302,933ms     system: 0,000ms       cpu: 293,750ms     user: 293,750ms     
+Moyenne pour durete 65%       sol: 9/10 | TO: 0/10          real: 572,585ms     system: 1,562ms       cpu: 559,375ms     user: 557,812ms     
+Moyenne pour durete 70%       sol: 0/10 | TO: 0/10          real: 623,988ms     system: 4,688ms       cpu: 600,000ms     user: 595,312ms     
+Moyenne pour durete 75%       sol: 0/10 | TO: 0/10          real: 16,424ms      system: 0,000ms       cpu: 17,188ms      user: 17,188ms      
+Moyenne pour durete 80%       sol: 0/10 | TO: 0/10          real: 7,793ms       system: 0,000ms       cpu: 6,250ms       user: 6,250ms       
+Moyenne pour durete 85%       sol: 0/10 | TO: 0/10          real: 0,485ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 90%       sol: 0/10 | TO: 0/10          real: 0,065ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne finale                sol: 118/170 | TO: 1/170      real: 129,237ms     system: 1,017ms       cpu: 121,579ms     user: 120,562ms     
+
+
+
+##################################################
+
+
+Avec AC3, sans violationOpt et triVariable
+
+
+Moyenne pour durete 10%       sol: 10/10 | TO: 0/10         real: 3,124ms       system: 0,000ms       cpu: 1,562ms       user: 1,562ms       
+Moyenne pour durete 15%       sol: 9/10 | TO: 1/10          real: 0,823ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 20%       sol: 10/10 | TO: 0/10         real: 0,691ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 25%       sol: 10/10 | TO: 0/10         real: 1,057ms       system: 0,000ms       cpu: 1,562ms       user: 1,562ms       
+Moyenne pour durete 30%       sol: 10/10 | TO: 0/10         real: 42,925ms      system: 0,000ms       cpu: 40,625ms      user: 40,625ms      
+Moyenne pour durete 35%       sol: 7/10 | TO: 3/10          real: 946,998ms     system: 0,000ms       cpu: 910,714ms     user: 910,714ms     
+Moyenne pour durete 40%       sol: 7/10 | TO: 3/10          real: 1187,722ms    system: 2,232ms       cpu: 1156,250ms    user: 1154,018ms    
+Moyenne pour durete 45%       sol: 8/10 | TO: 2/10          real: 1822,943ms    system: 1,953ms       cpu: 1746,094ms    user: 1744,141ms    
+Moyenne pour durete 50%       sol: 7/10 | TO: 3/10          real: 211,392ms     system: 0,000ms       cpu: 207,589ms     user: 207,589ms     
+Moyenne pour durete 55%       sol: 0/10 | TO: 10/10         real: ---           system: ---           cpu: ---           user: ---           
+Moyenne pour durete 60%       sol: 2/10 | TO: 8/10          real: 111,266ms     system: 0,000ms       cpu: 117,188ms     user: 117,188ms     
+Moyenne pour durete 65%       sol: 1/10 | TO: 9/10          real: 4814,147ms    system: 31,250ms      cpu: 4687,500ms    user: 4656,250ms    
+Moyenne pour durete 70%       sol: 0/10 | TO: 7/10          real: 446,712ms     system: 0,000ms       cpu: 427,083ms     user: 427,083ms     
+Moyenne pour durete 75%       sol: 0/10 | TO: 0/10          real: 433,035ms     system: 0,000ms       cpu: 410,938ms     user: 410,938ms     
+Moyenne pour durete 80%       sol: 0/10 | TO: 1/10          real: 639,520ms     system: 0,000ms       cpu: 619,792ms     user: 619,792ms     
+Moyenne pour durete 85%       sol: 0/10 | TO: 0/10          real: 25,915ms      system: 0,000ms       cpu: 25,000ms      user: 25,000ms      
+Moyenne pour durete 90%       sol: 0/10 | TO: 0/10          real: 0,995ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne finale                sol: 81/170 | TO: 47/170      real: 392,062ms     system: 0,508ms       cpu: 377,795ms     user: 377,287ms     
+
+
+
+##################################################
+
+
+Avec violationOpt, triVariable et AC3
+
+
+Moyenne pour durete 10%       sol: 10/10 | TO: 0/10         real: 0,608ms       system: 0,000ms       cpu: 1,562ms       user: 1,562ms       
+Moyenne pour durete 15%       sol: 10/10 | TO: 0/10         real: 3,701ms       system: 0,000ms       cpu: 3,125ms       user: 3,125ms       
+Moyenne pour durete 20%       sol: 10/10 | TO: 0/10         real: 0,193ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 25%       sol: 10/10 | TO: 0/10         real: 0,213ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 30%       sol: 10/10 | TO: 0/10         real: 0,331ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 35%       sol: 10/10 | TO: 0/10         real: 2,098ms       system: 0,000ms       cpu: 1,562ms       user: 1,562ms       
+Moyenne pour durete 40%       sol: 10/10 | TO: 0/10         real: 37,119ms      system: 0,000ms       cpu: 29,688ms      user: 29,688ms      
+Moyenne pour durete 45%       sol: 10/10 | TO: 0/10         real: 825,702ms     system: 0,000ms       cpu: 812,500ms     user: 812,500ms     
+Moyenne pour durete 50%       sol: 10/10 | TO: 0/10         real: 5,849ms       system: 0,000ms       cpu: 7,812ms       user: 7,812ms       
+Moyenne pour durete 55%       sol: 10/10 | TO: 0/10         real: 61,039ms      system: 0,000ms       cpu: 57,812ms      user: 57,812ms      
+Moyenne pour durete 60%       sol: 10/10 | TO: 0/10         real: 70,511ms      system: 0,000ms       cpu: 68,750ms      user: 68,750ms      
+Moyenne pour durete 65%       sol: 9/10 | TO: 0/10          real: 125,233ms     system: 0,000ms       cpu: 126,562ms     user: 126,562ms     
+Moyenne pour durete 70%       sol: 0/10 | TO: 0/10          real: 93,185ms      system: 3,125ms       cpu: 95,312ms      user: 92,188ms      
+Moyenne pour durete 75%       sol: 0/10 | TO: 0/10          real: 0,143ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 80%       sol: 0/10 | TO: 0/10          real: 0,799ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 85%       sol: 0/10 | TO: 0/10          real: 0,060ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne pour durete 90%       sol: 0/10 | TO: 0/10          real: 0,018ms       system: 0,000ms       cpu: 0,000ms       user: 0,000ms       
+Moyenne finale                sol: 119/170 | TO: 0/170      real: 72,165ms      system: 0,184ms       cpu: 70,864ms      user: 70,680ms      
