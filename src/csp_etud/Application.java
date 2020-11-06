@@ -9,7 +9,7 @@ import java.util.List;
 public class Application {
 
     public static void main(String[] args) throws Exception {
-        String filename = "puzzle_zebre_all.txt";
+        String filename = "ReseauxSimples/Zebre.txt";
 
         System.out.println("Chargement du fichier : " + new java.io.File(".").getCanonicalPath() + "\\" + filename);
         BufferedReader reader = new BufferedReader(new FileReader(filename));
