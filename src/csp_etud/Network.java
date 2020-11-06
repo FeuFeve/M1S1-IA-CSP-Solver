@@ -253,6 +253,7 @@ public class Network {
 
 
     /**
+     * Choisit une variable non encore assignée
      * @param assignment    l'assignation actuelle
      * @param constraint    la contrainte actuelle
      * @return              une variable appartenant à la contrainte et n'étant pas encore dans l'assignation
@@ -266,6 +267,13 @@ public class Network {
         return null;
     }
 
+    /**
+     * Remplit l'assignation et vérifie sa consistance par rapport à la contrainte actuelle
+     * @param assignment    Assignation actuelle
+     * @param constraint    Contrainte à vérifier pour l'assignation
+     * @param depth         Profondeur/nombre de variables déjà assignées
+     * @return              true si l'assignation est consistante (qu'elle ne viole pas la contrainte), false sinon
+     */
     boolean recursiveIsConsistent(Assignment assignment, Constraint constraint, int depth) {
         List<String> vars = constraint.varList;
 
@@ -301,6 +309,11 @@ public class Network {
         return false;
     }
 
+    /**
+     * Vérifie/modifie le domaine d'une variable pour le rendre arc-consistant
+     * @param x     Variable dont il faut vérifier l'arc-consistance
+     * @return      true si le domaine de x a été modifié, false sinon
+     */
     boolean revise(String x) {
 
         boolean modif = false;
@@ -332,6 +345,10 @@ public class Network {
         return modif;
     }
 
+    /**
+     * Rétablit l'arc-consistance d'un réseau
+     * @return  false si le réseau n'est plus réalisable (si un des domaines est vide), true sinon
+     */
     boolean AC3() {
         // Révision sur toutes les variables du réseau
         List<String> remainingVars = new ArrayList<>(getVars());
