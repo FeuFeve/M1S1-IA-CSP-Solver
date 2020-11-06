@@ -102,7 +102,11 @@ public class Network {
 //        System.out.println("Domaine après l'arc-consistance :");
 //        System.out.println(varDom);
     }
-
+    /**
+     * Applique l'algorithme d'heuristique de Max-deg
+     * Remplace varDom par un nouveau domaine trié
+     * @return void
+     */
     public void maxDegree() {
         LinkedHashMap<String,List<Object>> newVarDom = new LinkedHashMap<>(); // HashMap triée
         HashMap<String, Integer> compteur = new HashMap<String, Integer>(); // HashMap qui permet de compter le nombre de contraintes par variable
