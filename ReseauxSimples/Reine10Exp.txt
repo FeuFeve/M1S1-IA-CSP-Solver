@@ -1,0 +1,147 @@
+10
+R1;1;2;3;4;5;6;7;8;9;10
+R2;1;2;3;4;5;6;7;8;9;10
+R3;1;2;3;4;5;6;7;8;9;10
+R4;1;2;3;4;5;6;7;8;9;10
+R5;1;2;3;4;5;6;7;8;9;10
+R6;1;2;3;4;5;6;7;8;9;10
+R7;1;2;3;4;5;6;7;8;9;10
+R8;1;2;3;4;5;6;7;8;9;10
+R9;1;2;3;4;5;6;7;8;9;10
+R10;1;2;3;4;5;6;7;8;9;10
+45
+exp
+R1;R2
+R1!=R2 && Math.abs(R1-R2)!="1"
+exp
+R1;R3
+R1!=R3 && Math.abs(R1-R3)!="2"
+exp
+R1;R4
+R1!=R4 && Math.abs(R1-R4)!="3"
+exp
+R1;R5
+R1!=R5 && Math.abs(R1-R5)!="4"
+exp
+R1;R6
+R1!=R6 && Math.abs(R1-R6)!="5"
+exp
+R1;R7
+R1!=R7 && Math.abs(R1-R7)!="6"
+exp
+R1;R8
+R1!=R8 && Math.abs(R1-R8)!="7"
+exp
+R1;R9
+R1!=R9 && Math.abs(R1-R9)!="8"
+exp
+R1;R10
+R1!=R10 && Math.abs(R1-R10)!="9"
+exp
+R2;R3
+R2!=R3 && Math.abs(R2-R3)!="1"
+exp
+R2;R4
+R2!=R4 && Math.abs(R2-R4)!="2"
+exp
+R2;R5
+R2!=R5 && Math.abs(R2-R5)!="3"
+exp
+R2;R6
+R2!=R6 && Math.abs(R2-R6)!="4"
+exp
+R2;R7
+R2!=R7 && Math.abs(R2-R7)!="5"
+exp
+R2;R8
+R2!=R8 && Math.abs(R2-R8)!="6"
+exp
+R2;R9
+R2!=R9 && Math.abs(R2-R9)!="7"
+exp
+R2;R10
+R2!=R10 && Math.abs(R2-R10)!="8"
+exp
+R3;R4
+R3!=R4 && Math.abs(R3-R4)!="1"
+exp
+R3;R5
+R3!=R5 && Math.abs(R3-R5)!="2"
+exp
+R3;R6
+R3!=R6 && Math.abs(R3-R6)!="3"
+exp
+R3;R7
+R3!=R7 && Math.abs(R3-R7)!="4"
+exp
+R3;R8
+R3!=R8 && Math.abs(R3-R8)!="5"
+exp
+R3;R9
+R3!=R9 && Math.abs(R3-R9)!="6"
+exp
+R3;R10
+R3!=R10 && Math.abs(R3-R10)!="7"
+exp
+R4;R5
+R4!=R5 && Math.abs(R4-R5)!="1"
+exp
+R4;R6
+R4!=R6 && Math.abs(R4-R6)!="2"
+exp
+R4;R7
+R4!=R7 && Math.abs(R4-R7)!="3"
+exp
+R4;R8
+R4!=R8 && Math.abs(R4-R8)!="4"
+exp
+R4;R9
+R4!=R9 && Math.abs(R4-R9)!="5"
+exp
+R4;R10
+R4!=R10 && Math.abs(R4-R10)!="6"
+exp
+R5;R6
+R5!=R6 && Math.abs(R5-R6)!="1"
+exp
+R5;R7
+R5!=R7 && Math.abs(R5-R7)!="2"
+exp
+R5;R8
+R5!=R8 && Math.abs(R5-R8)!="3"
+exp
+R5;R9
+R5!=R9 && Math.abs(R5-R9)!="4"
+exp
+R5;R10
+R5!=R10 && Math.abs(R5-R10)!="5"
+exp
+R6;R7
+R6!=R7 && Math.abs(R6-R7)!="1"
+exp
+R6;R8
+R6!=R8 && Math.abs(R6-R8)!="2"
+exp
+R6;R9
+R6!=R9 && Math.abs(R6-R9)!="3"
+exp
+R6;R10
+R6!=R10 && Math.abs(R6-R10)!="4"
+exp
+R7;R8
+R7!=R8 && Math.abs(R7-R8)!="1"
+exp
+R7;R9
+R7!=R9 && Math.abs(R7-R9)!="2"
+exp
+R7;R10
+R7!=R10 && Math.abs(R7-R10)!="3"
+exp
+R8;R9
+R8!=R9 && Math.abs(R8-R9)!="1"
+exp
+R8;R10
+R8!=R10 && Math.abs(R8-R10)!="2"
+exp
+R9;R10
+R9!=R10 && Math.abs(R9-R10)!="1"
