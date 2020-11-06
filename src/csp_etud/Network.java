@@ -104,28 +104,28 @@ public class Network {
     }
 
     public void maxDegree() {
-        LinkedHashMap<String,List<Object>> newVarDom = new LinkedHashMap<>();
-        HashMap<String, Integer> compteur = new HashMap<String, Integer>();
+        LinkedHashMap<String,List<Object>> newVarDom = new LinkedHashMap<>(); // HashMap triée
+        HashMap<String, Integer> compteur = new HashMap<String, Integer>(); // HashMap qui permet de compter le nombre de contraintes par variable
         for (String key : varDom.keySet()) {
-            compteur.put(key, 0);
+            compteur.put(key, 0); // initialsaiton des clés avec compteur à 0
         }
 
         for (Constraint contraint : constraints) {
             for (String key : varDom.keySet()) {
                 if (contraint.varList.contains(key)) {
-                    compteur.put(key, compteur.get(key) + 1);
+                    compteur.put(key, compteur.get(key) + 1); // pour chaque contrainte qui contient le domaine, incrémenter le compteur
                 }
             }
 
         }
 //        System.out.println(compteur);
-        compteur = compteur.entrySet().stream().sorted(comparingByValue(reverseOrder())).
+        compteur = compteur.entrySet().stream().sorted(comparingByValue(reverseOrder())). // trie dans l'ordre décroissant les domaines en fonction de leur nombre de contrainte
                 collect(Collectors.toMap(
-                        Map.Entry::getKey,
-                        Map.Entry::getValue,
-                        (oldValue, newValue) -> oldValue, LinkedHashMap::new));
+                Map.Entry::getKey,
+                Map.Entry::getValue,
+                (oldValue, newValue) -> oldValue, LinkedHashMap::new));
 
-        for (String keyC : compteur.keySet()) {
+        for (String keyC : compteur.keySet()) { // réaffecte les domaines dans la linkedHashMap newVarDom
             newVarDom.put(keyC,null);
             for (String keyD : varDom.keySet()) {
                 if (keyC.equals(keyD)) {
@@ -133,7 +133,7 @@ public class Network {
                 }
             }
         }
-        varDom = newVarDom;
+        varDom = newVarDom; //affecte newVarDom à la variable de classe varDom
     }
 
     /**
@@ -248,6 +248,11 @@ public class Network {
     }
 
 
+    /**
+     * @param assignment    l'assignation actuelle
+     * @param constraint    la contrainte actuelle
+     * @return              une variable appartenant à la contrainte et n'étant pas encore dans l'assignation
+     */
     String getVar(Assignment assignment, Constraint constraint) {
         for (String var : constraint.varList) {
             if (!assignment.containsKey(var)) {
